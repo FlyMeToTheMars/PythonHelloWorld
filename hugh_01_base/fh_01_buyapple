@@ -1,0 +1,18 @@
+# 苹果单价
+price_str = input("苹果的单价：")
+
+# 苹果重量
+weight_str = input("苹果的重量：")
+
+# 计算支付的总金额
+money = float(price_str) * float(weight_str)
+print(money)
+
+# 格式化输出
+name = "ming"
+print("my name is xiaoming, qing duo guan zhao")
+print("my name is %s , qing duo duo guan zhao " % name)
+
+# %06d : 数字取6位，不足6位的用0来补充，超出的正常显示
+# %.2f :  %% 输出%
+
