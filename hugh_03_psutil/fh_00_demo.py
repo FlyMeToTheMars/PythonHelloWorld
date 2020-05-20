@@ -8,8 +8,10 @@ def main():
     count = psutil.cpu_count()
     print("cpu cores: %r " % count)
 
+    net_stats = psutil.net_if_stats()
+    print(net_stats)
 
-    print(">>>>>>>>>>>>>>>>>>>>分割")
+    print(">>>>>>>>>>>>>>>>>>>>分割<<<<<<<<<<<<<<<<<<<<<<")
     print(type(count))
 
 
