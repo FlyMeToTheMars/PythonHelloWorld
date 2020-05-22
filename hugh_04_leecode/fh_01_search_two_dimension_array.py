@@ -15,7 +15,7 @@ class SearchTwoDimensionalArray:
         row = len(array) - 1
         column = 0
 
-        while row >=0 and len(array[column]) - 1 >= column:
+        while row >= 0 and len(array[column]) - 1 >= column:
             if array[row][column] > target:
                 row -= 1
             elif array[row][column] < target:
