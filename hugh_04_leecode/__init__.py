@@ -12,6 +12,5 @@ if __name__ == '__main__':
     print(out)
 
     str1 = "We Are Happy"
-    out2 = fh_02_string_replace.StringReplace.strreplace2(str1)
+    out2 = fh_02_string_replace.StringReplace().strreplace2(str1)
     print(out2)
-
