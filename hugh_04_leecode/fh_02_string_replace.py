@@ -15,3 +15,12 @@ class StringReplace:
             if s[i] == ' ':
                 s[i] = '%20'
         return ''.join(s)
+
+    def strreplace3(self,str):
+        r = []
+        for c in str:
+            if c == ' ':
+                r.append('%20')
+            else:
+                r.append(c)
+        return ''.join(r)
